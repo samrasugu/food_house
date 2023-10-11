@@ -11,7 +11,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <div className="w-full flex-row justify-between text-left text-black bg-white py-5 px-20 gap-1">
+    <div className="w-full flex-row justify-between text-left text-black bg-white py-5 px-4 md:px-20 gap-1">
       <div className="grid grid-cols-1 pt-2 md:grid-cols-4 gap-8">
         <div className="flex flex-col">
           <p className="uppercase text-black font-bold text-2xl pb-8">
@@ -79,7 +79,7 @@ export default function Footer() {
         <div className="flex justify-between"></div>
       </div>
       <hr className="bg-black text-black" />
-      <div className="flex justify-between py-5">
+      <div className="flex flex-col md:flex-row justify-between py-5 gap-4">
         <div className="flex flex-row gap-4">
           <Image src={VisaMasterCard} alt="Visa-MasterCard" height={35} />
           <Image src={PayPalLogo} alt="PayPal" height={35} />
