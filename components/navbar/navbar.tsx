@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div className="flex justify-between text-center bg-white py-5 px-20 top-0">
       <p className="uppercase text-black font-bold text-2xl">
-        Food<span className="text-orange-500">House</span>
+        Food<span className="text-orange-500 text-xl">House</span>
       </p>
 
       <ul className="list-none text-black flex gap-6 text-xl">
