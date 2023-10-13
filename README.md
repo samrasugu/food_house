@@ -2,7 +2,7 @@
 
 A responsive online fast food store landing page built with Next.JS, TypeScript, and TailwindCSS.
 
-<img src="/public/assets/Screenshot from 2023-10-13 12-39-02.png" alt="FoodHouse" width="300" >
+<img src="/public/assets/Screenshot from 2023-10-13 12-39-02.png" alt="FoodHouse" width="500" >
 
 ## Run the project
 
