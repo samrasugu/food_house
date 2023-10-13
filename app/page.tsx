@@ -3,6 +3,7 @@ import { HeroSection } from "./sections/hero";
 import Footer from "@component/components/footer/footer";
 import PopularMenu from "./sections/popular";
 import Categories from "./sections/categories";
+import AppBanner from "./sections/appbanner";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroSection />
       <PopularMenu />
       <Categories />
+      <AppBanner />
       <Footer />
     </main>
   );
