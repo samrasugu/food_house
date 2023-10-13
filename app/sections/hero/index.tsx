@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export function HeroSection() {
   return (
-    <div className="h-screen bg-orange-500">
+    <div className="h-screen bg-orange-500 pt-24">
       <div className="flex md:flex-row flex-col px-4 md:px-20 py-24 gap-10">
         <div className="flex-col">
           <h1 className="text-white text-5xl md:text-6xl font-bold">
